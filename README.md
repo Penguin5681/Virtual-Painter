@@ -71,7 +71,7 @@ signed main() {
         while (true) {
             cap.read(image);
             cvtColor(image, image_HSV, COLOR_BGR2HSV);
-            inRange(image_HSV, Scalar(hue_min, sat_min, val_min), Scalar(hue_max,       sat_max, val_max), mask);
+            inRange(image_HSV, Scalar(hue_min, sat_min, val_min), Scalar(hue_max, sat_max, val_max), mask);
             cap.read(image);
             cout << "{" << hue_min << ", " << sat_min << ", " << val_min << ", " << hue_max << ", " << sat_max << ", " << val_max << "}" << endl;
             imshow("Original", image);
