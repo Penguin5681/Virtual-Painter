@@ -1,6 +1,6 @@
 # Virtual Painter Using OpenCV C++ 
 
-**Overview:**
+**Overview**
 Virtual Painter is an OpenCV-based C++ project that allows you to draw on a canvas using colored objects in front of a webcam. This project detects predefined colors (in this case, green and orange) and tracks their movement, enabling you to paint on a digital canvas in real-time.
 
 **Usage:**
